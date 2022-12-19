@@ -1,11 +1,17 @@
+"""
+Kugelberechnungen
+Autor, Klases : Mike Wagner, FS-ETTZ-22
+Erstelldatum : 19.12.2022
+    """
+
 import benutzerinteraktion as io
 import funktionalitaet as calc
 
 
 def main():
     radius = io.read_radius()
-    volumen = calc.calc_volume(radius)
-    oberflaeche = calc.calc_oberflaeche(radius)
+    volumen = calc.volume(radius)
+    oberflaeche = calc.oberflaeche(radius)
     io.output(volumen, oberflaeche)
 
 

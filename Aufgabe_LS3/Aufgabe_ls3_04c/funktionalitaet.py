@@ -1,21 +1,21 @@
 from math import pi
 
 
-def calc_volume(radius):
+def volume(radius):
     """Berechene Kugelvolumen mit dem radius
 
     Args:
         radius (float): radius der Kugel
     """
-    volumen = (4/3*pi)*radius**3
+    volumen = round((4/3*pi)*radius**3, 2)
     return volumen
 
 
-def calc_oberflaeche(radius):
+def oberflaeche(radius):
     """Berechne Kugeloberfläche mit dem radius
 
     Args:
         radius (float): radius der Kugel
     """
-    oberflaeche = (4*pi)*radius**2
+    oberflaeche = round((4*pi)*radius**2, 2)
     return oberflaeche

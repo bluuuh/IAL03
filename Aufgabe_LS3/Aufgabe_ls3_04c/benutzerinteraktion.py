@@ -8,7 +8,7 @@ def read_radius():
     Returns:
         radius: float
     """
-    radius = float(input("Radius eingeben(m):"))
+    radius = float(input("Radius > 0 eingeben(m):"))
     return radius
 
 
@@ -19,4 +19,4 @@ def output(volumen, oberflaeche):
         volumen (number)
         oberflaeche (number)
     """
-    print(f"Volumen: {volumen}m³\nOberfläche: {oberflaeche}m²")
+    print(f"Volumen: {volumen} m³\nOberfläche: {oberflaeche} m²")
