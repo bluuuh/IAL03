@@ -1,5 +1,9 @@
 def auswahl_rechenart():
     """Flag für Rechenart oder Beenden
+    Rechenart auswählen
+    1 - Grundrechenarten
+    2 - Trigonometrie
+    Q - Beenden
     """
     print("Rechenart auswählen")
     print("1 - Grundrechenarten")
