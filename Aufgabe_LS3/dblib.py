@@ -1,10 +1,10 @@
 import mysql.connector
 
 
-def db_verbindung_aufbauen(host, user, passwd, db):
+def db_verbindung_aufbauen(host, port,  user, passwd, db):
     """Funktion zum Verbindungsaufbau mit einer MySQL-Datenbank"""
     verbindung = mysql.connector.connect(
-        host=host, port=49153, user=user, passwd=passwd, db=db
+        host=host, port=port, user=user, passwd=passwd, db=db
     )
     return verbindung
 
